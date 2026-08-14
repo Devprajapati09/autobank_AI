@@ -1,0 +1,60 @@
+:root {
+  /* ---- Palette ----
+     Ledger navy grounds the app in "bank"; a deep ledger-green carries money
+     and growth; marigold is the AI/attention colour, borrowed from Indian
+     currency-note guilloché and gov-scheme signage rather than generic SaaS
+     purple. Danger is a muted brick, never a stock-alert red. */
+  --navy-950: #0d1526;
+  --navy-900: #142042;
+  --navy-800: #1c2c56;
+  --navy-700: #28396e;
+  --navy-500: #4a5a94;
+  --navy-200: #c7cee6;
+
+  --paper: #f4f6f2;
+  --paper-raised: #ffffff;
+  --paper-dim: #eceee7;
+
+  --ledger-green: #1f6f54;
+  --ledger-green-light: #e4f1ea;
+  --ledger-green-deep: #144d3a;
+
+  --marigold: #e2972e;
+  --marigold-light: #fbeed7;
+  --marigold-deep: #a86618;
+
+  --brick: #b4463a;
+  --brick-light: #f7e3e0;
+
+  --ink: #16213e;
+  --ink-soft: #4b5372;
+  --ink-faint: #8b93ab;
+  --hairline: #dbe0d8;
+
+  /* ---- Type ---- */
+  --font-display: "Fraunces", "Georgia", serif;
+  --font-body: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: "IBM Plex Mono", "SFMono-Regular", monospace;
+
+  /* ---- Scale ---- */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --shadow-card: 0 1px 2px rgba(13, 21, 38, 0.04), 0 6px 20px rgba(13, 21, 38, 0.06);
+  --shadow-pop: 0 12px 32px rgba(13, 21, 38, 0.14);
+
+  --sidebar-w: 248px;
+}
+
+.theme-dark {
+  --paper: #0d1526;
+  --paper-raised: #142042;
+  --paper-dim: #16213e;
+  --ink: #eef1fa;
+  --ink-soft: #b7bedb;
+  --ink-faint: #7c86ac;
+  --hairline: #263461;
+  --ledger-green-light: #12352a;
+  --marigold-light: #3a2a12;
+  --brick-light: #3a1e1b;
+}
