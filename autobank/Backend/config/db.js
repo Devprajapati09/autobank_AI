@@ -16,6 +16,8 @@ const connectDB = async () => {
 
 module.exports = connectDB;
 
+
+
 // .env
 //   ↓
 // MONGO_URI = mongodb+srv://YOUR_USERNAME:YOUR_PASSWORD@YOUR_CLUSTER.mongodb.net/autobank?retryWrites=true&w=majority
